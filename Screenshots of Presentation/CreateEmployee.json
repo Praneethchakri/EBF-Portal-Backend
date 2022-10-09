@@ -1,0 +1,41 @@
+Request Payload to create Employee
+EBF Model
+
+{ 
+"company":{
+"company_name":"Accenture",
+"employee":{
+"address":"Kadiri",
+"email":"test@accenture.com",
+"name":"test",
+"salary":80000,
+"surname":"testing"
+}
+},
+"employee":{
+"address":"Kadiri",
+"email":"test@accenture.com",
+"name":"test",
+"salary":80000,
+"surname":"testing"
+}
+}
+
+Update Employee Payload:
+
+{
+"employee":{
+"emp_id":13,
+"name":"Prajna Sri",
+"surname":"Diguvapalem",
+"email":"PrajnasriDiguvapalem@gmail.com",
+"address":"Frankfurt, Germany",
+"salary":500000,
+"company":{
+"company_id":13,
+"company_name":"Alphabet.com"
+}
+},
+"company":{
+}
+}
